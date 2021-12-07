@@ -1,0 +1,192 @@
+#accept:hover
+{
+  color: green;
+}
+
+#reject:hover
+{
+  color: red;
+}
+
+.comment_block
+{
+  width: 85%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+  padding-top: 5px;
+}
+.comment_block .create_new_comment {
+  width: 100%;
+  padding: 10px 0;
+}
+.comment_block .create_new_comment .input_comment {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  width: calc(100% - 75px);
+}
+.comment_block .create_new_comment .input_comment input[type="text"] {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  padding: 10px;
+  border: none;      
+}
+.comment_block .create_new_comment .input_comment input[type="text"]:focus {
+  outline: none;
+  border-bottom: 2px solid #e6e6e6;
+}
+  .comment_block .new_comment {
+  width: 90%;
+  height: auto;
+  padding: 10px 0;
+  padding-top: 5px;
+}
+.comment_block .new_comment .user_comment {
+  list-style-type: none;
+}
+.comment_block .new_comment .comment_body {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 75px);
+  min-height: 50px;
+  margin-left: 10px;
+  padding: 0px 20px;
+  padding-bottom: 5px;
+  font-size: .9rem;
+  color: #555;
+  background-color: #FFF;
+  text-align: justify;
+}
+.comment_block .new_comment .comment_body .replied_to {
+  margin: 5px 0px;
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+.comment_block .new_comment .comment_body .replied_to p {
+  padding: 5px;
+}
+.comment_block .new_comment .comment_body .replied_to span {
+  color: #6495ED;
+  margin-right: 2px;
+}
+.comment_block .new_comment .comment_toolbar {
+  width: 100%;
+}
+.comment_block .new_comment .comment_toolbar ul {
+  list-style-type: none;
+  padding-left: 25px;
+  font-size: 0;
+}
+.comment_block .new_comment .comment_toolbar ul li {
+  display: inline-block;
+  padding: 5px;
+  font-size: .7rem;
+  color: #d9d9d9;
+}
+.comment_block .new_comment .comment_toolbar ul li:hover {
+  cursor: pointer;
+  color: black;
+}
+.comment_block .new_comment .comment_toolbar .comment_details {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70%;
+  text-align: left;
+}
+.comment_block .new_comment .comment_toolbar .comment_tools {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+  text-align: right;
+}
+.comment_block .new_comment .comment_toolbar .comment_tools li:hover {
+  color: #CCC;
+}
+.comment_block .new_comment .user:hover {
+  color: #6495ED;
+  text-decoration: underline;
+}
+.comment_block .new_comment .love:hover {
+  color: #FF6347;
+}
+.create_new_comment
+{
+  width: 300px;
+}
+
+.comment_toolbar
+{
+  border-top: 2px solid #f2f2f2;
+}
+
+textarea
+{
+
+  padding-left: 10px;
+  padding-right: 15px;  
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: sans-serif;
+}
+
+.error
+{
+  font-size: 15px;
+  color: red;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.user_avatar {
+  
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.user_avatar img {
+  object-fit: cover;
+  width: 60px;
+  height: 58px;
+  border-radius: 50%;
+
+}
+
+.new{
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#closediv{
+  float: right; 
+  margin-right: 6%; 
+  cursor: pointer;
+}
+
+#closediv:hover{
+  color: red;
+}
+
+
+.informationHolderReply{
+
+  margin-top: 10px;
+  background-color: rgba(205,214,209,255);
+  height: 23px;
+  padding-top: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+textarea{
+  resize: vertical;
+}

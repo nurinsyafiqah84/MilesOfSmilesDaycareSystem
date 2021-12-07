@@ -1,0 +1,95 @@
+.mainBox
+{
+	display: inline-flex;
+	margin-top: 30px;
+	margin-left: 18px;
+	height: 100px;
+	width: 210px;
+	border-radius: 35px;
+	background-color: rgba(117, 20, 117, 0.1);
+	/*background: rgba(205,214,209,0.4);*/
+	margin-bottom: 10px;
+	
+}
+
+.mainBox:hover
+{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.mainPictureHolder
+{
+	background-color: white;
+	height: 90px;
+	width: 90px;
+	border-radius: 30px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#mainBoxPicture
+{
+	padding-top: 10px;
+	padding-left: 0px;
+}
+
+
+.mainBoxText
+{
+	display: inline-block;
+	width: 80px;
+	margin-left: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.mainBoxTitle
+{
+
+	background-color: ;
+	text-align: left;
+}
+
+.mainBoxDetail
+{
+	text-align: right;
+	background-color: ;
+	font-size: 20px;
+	margin-top: 18px;
+	margin-right: 2px;
+}
+
+.mainBoxSection
+{
+	margin-bottom: 30px;
+	background-color:;
+	width: 85%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+
+}
+
+.mainBoxContent
+{
+	width: 100%;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile-pic 
+{
+	border-radius: 50%;
+	height: 140px;
+	width: 140px;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+	color: transparent;
+	transition: all .3s ease;
+}
+
+select{
+	width: 20%;
+}
+

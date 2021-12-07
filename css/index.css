@@ -1,0 +1,208 @@
+.description
+{
+	padding: 15px;
+	padding-top: 8px;
+	margin-left: 10px;
+	width: 50%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	display: inline-block;
+	line-height: 27px;
+}
+
+.loginholder
+{
+	margin-right: 20px;
+	font-size: 14px;
+	line-height: 3.231;
+	font-family: "Helvetica Neue", sans-serif;
+	color: #000;
+	float: right;
+	
+}
+
+.loginholder a
+{
+	line-height: 1.231;
+	margin-bottom: 1px;
+	background: #222;
+	border: none;
+	font-size: 14px;
+	padding: 4px 16px 4px 16px;
+	width: 120px;
+	text-align: center;
+	color: #fff;	
+	text-decoration: none;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+	position: relative;
+	cursor: pointer;	
+	font-family: helvetica, arial, sans-serif;
+	background-color: rgba(117, 20, 117, 0.6);
+	display: block;
+	margin-top: 20px;
+
+}
+
+.loginholder a:hover
+{
+	color: #1A5573;
+	background-color: rgba(117, 20, 117, 0.3);
+}
+
+input, textarea, select
+{
+	margin-left: 10px;
+}
+
+td, input, textarea, select
+{
+	margin-bottom: 1px;
+
+}
+
+table
+{
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,'Sans-serif';
+
+	
+}
+
+select{
+    width: 300px;
+    text-overflow: ellipsis;
+}
+
+input{
+	width: 70%;
+}
+
+td
+{
+	padding-left: 15px;
+	text-align: left;
+}
+
+
+.loginbox
+{
+	margin-top: 40px;
+	
+	width: 50%;
+	
+	margin-left: 25%;
+	border-radius: 20px;
+}
+
+
+
+.loginImage
+{
+	display: inline;
+	
+}
+
+img
+{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	background-color: rgba(234, 231, 220, 1);
+
+}
+
+.error
+{
+	font-size: 15px;
+	color: red;
+	margin-left: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: relative;
+
+}
+
+
+
+.scope{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: inherit;
+	
+}
+
+#hiringscopeinner{
+	padding: 10px 15px 10px 15px;
+	background-color: rgb(165,42,42, 0.1);
+	height: auto;
+	width: inherit;
+}
+
+#jobdescription
+{
+	line-height: 30px;
+
+}
+
+.profile-pic 
+{
+	border-radius: 50%;
+	height: 110px;
+	width: 110px;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+	color: transparent;
+	transition: all .3s ease;
+	margin:  3px 4px 3px 4px;
+
+}
+
+ .profile-pic:hover 
+{
+    background-color: rgba(0,0,0,.5);
+    z-index: 10000;
+    color: rgba(250,250,250,1);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+
+.nannyprofileholder{
+	display: inline-block;
+	padding: 2px 2px 2px 2px;
+	width: 200px;
+}
+
+
+
+.loginbox
+{
+	margin-top: 40px;
+	padding: 10px 20px 10px 20px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+
+
+
+.loginImage
+{
+	display: inline;
+	
+}
+
+.loginImage img{
+	width: 150px;
+	height: 150px;
+}

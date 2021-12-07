@@ -1,0 +1,75 @@
+.row{
+  display: flex;
+  margin-top: 20px;  
+}
+
+.part {
+  text-align: left;
+  flex: 50%;
+  padding: 20px 0px 20px 10px;
+}
+
+
+.profile-pic 
+{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: transparent;
+  transition: all .3s ease;
+}
+
+.basicInformation
+{
+  background-color: ;
+  width: 85%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.categorybox
+{
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  height: 80px;
+  width: 120px;
+  border-radius: 10px;
+  background: rgba(205,214,209,0.4);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.categorybox:hover
+{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 0px;
+}
+
+.categorytext
+{
+  padding-left: 10px;
+  display: inline-block;
+  width: 100px;
+}
+
+.categorytitle
+{
+  text-align: left;
+}
+
+.categorydetail
+{
+  text-align: right;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+input{
+  width: 90%;
+}
